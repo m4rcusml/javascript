@@ -71,8 +71,10 @@ Jeito poggers e igual ao Python de escrever:
 var n1 = 4
 var n2 = 8
 soma = n1 + n2
-window.alert('A soma de ${n1} + ${n2} = ${soma}')
+window.alert(`A soma de ${n1} + ${n2} = ${soma}`)
 ```
+
+**ATENÇÃO**: Para usar as *template strings* é necessário usar o crase (`) ao invés de aspas simples ou duplas.
 
 Jeito de formatar números:
 ```Javascript

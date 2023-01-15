@@ -1,6 +1,6 @@
 # ENTENDENDO O QUE É O DOM
 
-O QUE É?
+## O QUE É?
 > Document Object Model é um modelo de objetos para documentos.
 > E um conjunto de objetos dentro do navegador que vai dar acesso aos componentes internos do site. [...]
 > E uma coisa importante que você deve saber fazer é a sua árvore DOM.
