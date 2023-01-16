@@ -32,6 +32,13 @@ header h1 {
     cursor: default;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 main {
     background-color: white;
     margin: auto;
@@ -57,8 +64,9 @@ section ol li {
     flex-direction: column;
 }
 
-section ol li input {
+section ol li input, section ol li button {
     max-width: 300px;
+    margin: 8px 0;
 }
 
 a {

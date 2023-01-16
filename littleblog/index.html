@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de exercicios em JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
@@ -13,9 +13,11 @@
     </header>
     <main>
         <nav>
-            <a href="#lista1">Lista 1</a>
-            <a href="#lista2">Lista 2</a>
-            <a href="#lista3">Lista 3</a>
+            <ul>
+                <li><a href="#lista1">Lista 1</a></li>
+                <li><a href="#lista2">Lista 2</a></li>
+                <li><a href="#lista3">Lista 3</a></li>
+            </ul>
         </nav>
         <section id="lista1">
             <h1>Lista de exercicios 1</h1>
@@ -26,13 +28,17 @@
                     <input type="number" name="n1" id="n1">
                     <label for="n2">Digite outro número</label>
                     <input type="number" name="n2" id="n2">
+                    <p id="q1.1">Quadrado do primeiro e do segundo:</p>
+                    <p id="q1.2">Produto elevado a 3:</p>
+                    <p id="q1.3">Cubo do primeiro vezes o cubo do segundo:</p>
                 </li>
+                <button onclick="ex001()">Enviar</button>
             </ol>
         </section>
         <section id="lista2">
 
         </section>
     </main>
-    <script src="ex003.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
