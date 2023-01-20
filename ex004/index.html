@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembrar idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="prepararAmbiente()">
+    <header>
+        <h1>Lembrar idade</h1>
+    </header>
+    <section>
+        <form action="">
+            <label for="anoNasc">Seu ano de nascimento:</label>
+            <input type="number" name="anoNasc" placeholder="Ano" id="anoNasc" required>
+            <p>
+                Gênero:
+                <span class="genero-item">
+                    <input type="radio" name="genero" id="male" value="masculino" checked>
+                    <label for="male">Masculino</label>
+                </span>
+
+                <span class="genero-item">
+                    <input type="radio" name="genero" id="female" value="feminino">
+                    <label for="female">Feminino</label>
+                </span>
+
+                <span class="genero-item">
+                    <input type="radio" name="genero" id="other" value="outro">
+                    <label for="other">Outro</label>
+                </span>
+            </p>
+            <input type="button" value="Enviar" id="btnEnviar"></input>
+        </form>
+        <div id="divResult">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; MarcusFelipe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
