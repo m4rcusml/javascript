@@ -43,6 +43,7 @@ function adicionar() {
         itens.push(item.valor)
         select.appendChild(option)
         select.size = `${itens.length}`
+        numero.value = ''
     } else {
         alert('O número inserido não está no intervalo sugerido ou já existe.')
     }
