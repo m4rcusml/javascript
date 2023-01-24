@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.container {
+    flex-shrink: 1;
+    width: 360px;
+    height: 420px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    flex-grow: 1;
+    display: flex;
+    padding: 0.5em;
+    position: relative;
+}
+
+.display p {
+    display: inline-block;
+}
+
+#res {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 2.5em;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.teclas {
+    flex-grow: 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3px;
+}
+
+.tecla {
+    background-color: rgb(75, 74, 74);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.tecla:hover {
+    cursor: pointer;
+    background-color: rgb(75, 74, 74, 0.6);
+}
+
+.tecla:active {
+    background-color: rgba(44, 44, 44, 0.9);
+}
+
+.num {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+    
+}
+
+.operacoes {
+    display: grid;
+    gap: 3px;
+    
+}
+
+.op {
+    background-color: rgb(31, 31, 31);
+}

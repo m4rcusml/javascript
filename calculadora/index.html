@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Online</h1>
+    </header>
+    <section class="container">
+        <div class="display">
+            <input type="number" id="res" readonly>
+        </div>
+        <div class="teclas">
+            <div class="num">
+                <button type="button" class="tecla" id="nove"> 9 </button>
+                <button type="button" class="tecla" id="oito"> 8 </button>
+                <button type="button" class="tecla" id="sete"> 7 </button>
+                <button type="button" class="tecla" id="seis"> 6 </button>
+                <button type="button" class="tecla" id="cinco"> 5 </button>
+                <button type="button" class="tecla" id="quatro"> 4 </button>
+                <button type="button" class="tecla" id="tres"> 3 </button>
+                <button type="button" class="tecla" id="dois"> 2 </button>
+                <button type="button" class="tecla" id="um"> 1 </button>
+                <button type="button" class="tecla" id="sinal"> +/- </button>
+                <button type="button" class="tecla" id="zero"> 0 </button>
+                <button type="button" class="tecla" id="virgula"> , </button>
+            </div>
+
+            <div class="operacoes">
+                <button type="button" class="tecla op" id="dividir"> / </button>
+                <button type="button" class="tecla op" id="multiplicar"> x </button>
+                <button type="button" class="tecla op" id="subtrair"> - </button>
+                <button type="button" class="tecla op" id="somar"> + </button>
+                <button type="button" class="tecla op" id="calcular"> = </button>
+            </div>
+        </div>
+    </section>
+    <section class="descricao">
+        <p>Explicações e tal</p>
+    </section>
+    <footer>
+        <p>Feito pelo Pisca <sub>(ML)</sub></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
