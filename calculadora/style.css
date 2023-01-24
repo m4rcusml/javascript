@@ -18,6 +18,12 @@ body {
     color: white;
 }
 
+.titulo {
+    margin: 1em .5em .5em .5em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
 .container {
     flex-shrink: 1;
     width: 360px;
@@ -95,4 +101,26 @@ body {
 
 .op {
     background-color: rgb(31, 31, 31);
+}
+
+.descricao {
+    max-width: 800px;
+}
+
+.subtitulo {
+    text-align: center;
+    margin: 0 1em 1em 1em;
+}
+
+.paragrafo {
+    margin: 1em .5em;
+    text-align: justify;
+    text-indent: 1em;
+    color: #d8d8d8;
+}
+
+@media screen and (max-width: 370px) {
+    .container {
+        width: 310px;
+    }
 }
